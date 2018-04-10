@@ -76,7 +76,7 @@ the navbar, and maybe a sidebar. -->
 <script src="app/root-components/navbar/templates.js"></script>
 <!-- page 1 templates -->
 <script src="app/page1-home/templates.js"></script>
-<!-- fotter templates -->
+<!-- footer templates -->
 <script src="app/root-components/footer/templates.js"></script>
 
 	
@@ -105,6 +105,7 @@ load events should only fire once, since we are not requesting this html page mo
 	in the picture I'm loading in my hero, somebody with a slow connection can go ahead and start reading
 	the page since it is the first thing to be loaded below. This is due to Javascript being a synchronous
 	language, that is only handling one request at a time. -->
+	
 <script src="app/utilities-1.js" onload = "utils.router (); utils.router ('navbar'); utils.router ('footer');"></script>
 
 </html>
