@@ -2,5 +2,5 @@
   "name": "the-showcase",
   "version": "1.0.0",
   "description": "My portfolio as a single-page app.",
-  "main": "Portfolio/index.html"
+  "main": "index.html"
 }
