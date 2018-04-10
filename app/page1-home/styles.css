@@ -1,0 +1,50 @@
+/* hero */
+#hero {
+  display: grid;
+  justify-content: center;
+  background-image: url('images/stars1.jpg');
+  background-size: cover;
+  min-height: 36vw;
+  background-repeat: no-repeat;
+  background-color: #222;
+  border: 7px;
+  border-color: darkgoldenrod;
+  border-style: hidden hidden outset hidden;
+}
+
+  .hero-header {
+    padding-top: 20px;
+    justify-self: center;
+    color: darkgrey;
+    text-rendering: optimizeLegibility;
+    text-shadow: 0px -7px black;
+    opacity: 0.5;
+    font-size: 5.0vw;
+    font-family: TimesNewRoman;
+  }
+
+  .hero-text {
+    font-family: TimesNewRoman;
+    font-size: 1.9vw;
+    align-self: end;
+    padding-bottom: 20px;
+    color: darkgoldenrod;
+  }
+
+
+
+
+#body {
+  display: grid;
+  font-family: Perpetua, TimesNewRoman;
+  margin: 0;
+  text-align: justify;
+  text-indent: 50px;
+  background-color: snow;
+  padding: 60px 30px 40px 30px;
+}
+
+  #body p {
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+  }
