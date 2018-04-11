@@ -11,5 +11,6 @@
   "dependencies": {},
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
-  }
+  },
+  "keywords": ["portfolio", "vanilla js"]
 }
