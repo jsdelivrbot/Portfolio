@@ -1,5 +1,4 @@
-/* navbar will be a totally separate grid for when we move to SPA.
-setup grid, then subgrid applies structure from parent. */
+/* setup grid, then subgrid applies structure from parent. */
 .nav-logo {
   grid-area: logo;
 }
